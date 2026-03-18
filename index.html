@@ -8,20 +8,85 @@
 
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#carte">Carte</a></li>
+            </ul>
 
-    <section id="">
-        Guide Local.
-    </section>
+            <div class="right">
+                <div class="recherche">
+                    <span>&#128269;</span>
+                    <input type="text" placeholder="Rechercher un lieu...">
+                </div>
+
+                <button id="btn_connexion">Connexion</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <div class="hero-content">
+                <h1>Guide Local</h1>
+                <p>Découvrez facilement les lieux importants de votre ville et trouvez rapidement les services essentiels autour de vous.</p>
+            </div>
+            
+        </section>
 
 
-    <section id="">
-        Lieux (avec la carte)
-    </section>
+        <section id="">
+            <div class="background-lieu">
+                <div class="content-lieu">
+                    <h2>Lieux</h2>
+                    <p>Guide Local est une plateforme qui permet de découvrir facilement les lieux importants d’une ville. Elle aide les utilisateurs à s’orienter et à trouver rapidement des endroits essentiels comme les universités, les hôpitaux et les marchés.</p>
+                </div>
+                
+                <img src="Img/localisation.png" alt="Image illustrative">
+            </div>
+
+            <div class="map-section">
+                <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=47.074%2C-21.468%2C47.086%2C-21.459&layer=mapnik&marker=-21.4638492%2C47.0803617#map=19/-21.4638492/47.0803617"
+                allowfullscreen=""
+                loading="lazy">
+              </iframe>
+             
+            </div>
+        </section>
 
 
-    <section id="">
-        Lieux les plus visités (avec les images)
-    </section>
+
+
+        <section id="">
+            <div>
+                <h2>Lieux les plus visités</h2>
+                <p>Les lieux que les visiteurs du site recherchent le plus</p>
+            </div>
+            
+
+            <button>VOIR TOUS LES LIEUX POPULAIRES</button>
+
+            <div>
+                <h3>Campus Universitaire</h3>
+            </div>
+
+            <div>
+                <h3>Centre Hospitalier</h3>
+            </div>
+
+            <div>
+                <h3>Marché principal de la ville</h3>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Guide Local</p>
+        <button>Accueil</button>
+    </footer>
     
     <script src="script.js"></script>
 </body>
